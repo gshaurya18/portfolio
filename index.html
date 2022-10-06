@@ -37,7 +37,7 @@
 						<div class="inner">
 							<h1>Shaurya Gupta</h1>
 							<p>A junior studying <b>Computer Science</b> and <b>Mathematics</b> at the <b>University of Michigan</b>.</p>
-							<p>My main interests are in Machine Learning, AI, and Computer Vision particularly as it applies to autonomous systems. My experience revolve around these topics and you can read more about these below.</p>
+							<p>My main interests are in Machine Learning, AI, and Computer Vision particularly as it applies to autonomous systems. My projects revolve around these topics and you can read more about these below.</p>
 							<ul class="actions">
 								<li><a href="#projects" class="button scrolly">Learn more</a></li>
 							</ul>
@@ -47,20 +47,20 @@
 				<!-- Projects -->
 					<section id="projects" class="wrapper style2 spotlights">
 						<section>
-							<a href="https://github.com/gshaurya18/resize-bot" target="_blank" class="image"><img src="images/resize-example.jpg" alt="" data-position="bottom center"/></a>
+							<a href="https://github.com/gshaurya18/resize-bot" target="_blank" class="image"><img src="images/resize-example.jpg" alt="Resized Image Example" data-position="bottom center"/></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Content Aware Image Resizing</h2>
 									<p>A discord bot that uses Computer Vision to resize an image by removing only the least noticeable pixels.</p>
 									<p>Uses Discord.js and Node.js to build a Canvas context from an image sent by the user on Discord. This information is then passed to a C++ program on the server that uses Dynamic Programming to efficiently detect and selectively remove least noticeable pixels. The re-sized image is then provided to the user by the bot through a message attachment on discord.</p>
 									<ul class="actions">
-										<li><a href="https://github.com/gshaurya18/resize-bot" target="_blank" class="button">Source Code</a></li>
+										<li><a href="https://github.com/gshaurya18/resize-bot" target="_blank" class="button">View Source</a></li>
 									</ul>
 								</div>
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="images/stairs_walking_five_seconds_zoomed_thirty.gif" alt="" data-position="bottom center" /></a>
+							<img src="images/stairs_walking_five_seconds_zoomed_thirty.gif" class="image" alt="Robot walking towards staircase" data-position="bottom center" />
 							<div class="content">
 								<div class="inner">
 									<h2>Map building from LiDAR data</h2>
@@ -70,14 +70,12 @@
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+							<img src="images/samoyed-dog.jpg" class="image" alt="Samoyed dog" data-position="25% 25%" />
 							<div class="content">
 								<div class="inner">
-									<h2>Ultricies aliquam</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
+									<h2>Dog Breed Recognition</h2>
+									<p>Trained a Convoluted Neural Network (CNN) to identify 8 species of dogs: samoyed, poodle, saint bernard, dalmatian, chihuahua, husky, and yorkshire terrier.</p>
+									<p>Preprocessed the images to make the underlying distribution of each image channel have mean and variance 0 and 1 respectively. Used Python PyTorch and TensorFlow to train a 6 layer CNN on about 9000 images of dogs labeled with their breeds. Correctly classified about 72% of test images, taking about 3 seconds to classify each individual image.</p>
 								</div>
 							</div>
 						</section>
