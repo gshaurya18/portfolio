@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+<!--
+Hyperspace by HTML5 UP
+html5up.net | @ajlkn
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="en">
+
+<head>
+    <title>Resume - Shaurya Gupta</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="author" content="Shaurya Gupta" />
+    <meta name="description" content="Shaurya Gupta&apos;s Portfolio" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+</head>
+
+<body class="is-preload">
+
+    <!-- Header -->
+    <header id="header">
+        <a href="index.html" class="title">Shaurya Gupta</a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Portfolio</a></li>
+                <li><a href="resume.html" class="active">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Main -->
+        <section id="main" class="wrapper">
+            <div class="inner">
+                <h1 class="major">Resume</h1>
+                <!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
+                <section>
+                    <h2>Education</h2>
+                    <h3>University of Michigan</h3>
+                    <b>Degree:</b> Computer Science (B.S.E)
+                    <ul>
+                        <li><b>GPA:</b> 4.0 / 4.0 </li>
+                        <li>
+                            <b>Relevant Coursework:</b>
+                            <ul style="margin-bottom: 0px;">
+                                <li>EECS 445: Machine Learning.</li>
+                                <li>EECS 485: Web Development</li>
+                                <li>EECS 281: Data Structures and Algorithms</li>
+                                <li>MATH 217: Linear Algebra</li>
+                                <li>ROB 103: Robotic Mechanisms</li>
+                            </ul>
+                        </li>
+                        <li><b>Honors:</b> Dean&apos;s list, University Honors, James B. Angell Scholar</li>
+                        <li><b>Involvement:</b> Eta Kappa Nu (IEEE-HKN). Electrical Engineering and Computer<br>
+                        Science Honor Society dedicated to leadership, scholarship and service.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Experience</h2>
+                    <h3>University of Michigan, Science Learning Center</h3>
+                    <b>Study Group Facilitator and Peer Tutor</b>
+                    <p>Lead a two-hour weekly session working closely with a group of about fifteen students <br>
+                    enrolled in Electricity and Magnetism - General Physics II (Physics 240) at the University <br>
+                    of Michigan in a discussion of fundamental physics topics and course material. Prepare <br>
+                    worksheets and Practice exams to refresh students' understanding of course content and help <br>
+                    them prepare for exams</p>
+                </section>
+                <section>
+                    <a href="index.html#projects">
+                        <h2 style="display: inline;">Projects </h2>
+                        &#128279;
+                    </a>
+                    <h3>Reddit Comment Classifier</h3>
+                    <b>Technologies Used:</b> Python, NumPy, Pandas, scikit-learn, SciPy
+                    <ul>
+                        <li>Trained a quadratic kernel SVM to classify reddit comments by emotion conveyed</li>
+                        <li>Trained a one vs one SVM model to perform multi-class classification and obtained <br>
+                            an accuracy of 84% on test data</li>
+                        <li>Generated feature space by removing punctuation and stop words and mapping <br>
+                            words in each comment to their morphological stems using an English Word <br>
+                            Net Lemmatizer and Porter Stemmer</li>
+                        <li>Used five fold cross-validation to obtain hyperparameter values to reduce <br>
+                            over-fitting and maximize accuracy</li>
+                    </ul>
+                    <h3>Resize Bot</h3>
+                    <b>Technologies Used:</b> Node.js, npm, Python, C++
+                    <ul>
+                        <li>Developed a Discord Bot using Discord.JS and C++ that performs Content Aware <br>
+                            Image Resizing and allows the user to change the aspect ratio of an image without <br>
+                            distorting its noticeable features</li>
+                        <li>Used the Discord.JS API to create a Canvas context and extract individual pixel <br>
+                            data from the image sent by a user on Discord</li>
+                        <li>Used a Child Process to pass image data to a C++ program that performs Seam Carving <br>
+                            in a parallel thread for faster processing</li>
+                    </ul>
+                    <h3>Map Building from LiDAR data</h3>
+                    <b>Technologies Used:</b> Julia, Jupyter
+                    <ul>
+                        <li>Used a Kalman Filter Algorithm to process and transform point cloud data collected <br>
+                            from a thirty-two beam LiDAR on a bipedal robot to build a map using Julia</li>
+                        <li>Parsed robot pose and point cloud data to calculate Linear Affine Transformations <br>
+                            needed to bring data into the World Frame in real time</li>
+                        <li>Fused Data collected collected over multiple time periods with the robot&apos;s motion <br>
+                            to gain full scene understanding and build a map</li>
+                    </ul>
+                    <h3>Dog Breed Recognition</h3>
+                    <b>Technologies Used:</b> Python, Pandas, TensorFlow, numpy, scikit-learn
+                    <ul>
+                        <li>Trained a Convoluted Neural Network (CNN) to identify 8 species of dogs: samoyed, <br>
+                            poodle, saint bernard, dalmatian, chihuahua, husky, and yorkshire terrier</li>
+                        <li>Used Python PyTorch and TensorFlow to train a 6 layer CNN on about 9000 images of <br>
+                            dogs labeled with their breeds</li>
+                        <li>Correctly classified about 72% of test images, taking about 3 seconds to classify each individual image</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Technical Skills</h2>
+                    <ul>
+                        <li><b>Programming Languages:</b> C++, Python, Javascript, Julia, MATLAB, R</li>
+                        <li><b>Markup Languages:</b> HTML, LaTeX, Markdown</li>
+                        <li><b>Developer Tools:</b> Jupyter, XCode, vim, VSCode</li>
+                        <li><b>Technologies and Frameworks:</b> Linux, Git, npm, Node.js, React, Flask, Pandas, <br>
+                            scikit-learn, SciPy, PyTorch, keras, TensorFlow</li>
+                    </ul>
+                </section>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer" class="wrapper style1-alt">
+        <div class="inner">
+            Shaurya Gupta
+            <span class="text-align-right" style="float: right;">
+                <a href="https://www.linkedin.com/in/gshaurya/" class="icon brands fa-linkedin-in"
+                    style="margin-right: 15px;"><span class="label">LinkedIn</span></a>
+                <a href="https://github.com/gshaurya18" class="icon brands fa-github"><span class="label">GitHub</span></a>
+            </span>
+            <p>
+                B.S.E Computer Science Engineering and Mathematics (Minor) <br>
+                University of Michigan &apos;24
+            </p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
